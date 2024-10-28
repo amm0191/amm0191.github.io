@@ -11,46 +11,6 @@ body {
     background-image: url('../img/fondo.jpg');
 }
 
-nav {
-    background-color: #333;
-    padding: 1rem 2rem;
-    color: #fff;
-    width: 100%;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
-
-.nav-left {
-    display: flex;
-    margin-left: 10px;
-}
-
-.nav-left li {
-    list-style: none;
-    margin-right: 20px;
-}
-
-.nav-left a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.nav-right {
-    display: flex;
-    align-items: center;
-}
-
-.nav-right a {
-    color: white;
-    text-decoration: none;
-    margin-right: 15px;
-}
-
 .register-btn {
     background-color: #f5a623;
     padding: 0.5rem 1rem;
