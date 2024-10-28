@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ayuda - Moya'S Rents</title>
-    <link rel="stylesheet" href="ayuda.css">
+    <title>Formulario de Satisfacción - Moya'S Rents</title>
+    <link rel="stylesheet" href="../css/formulario.css">
 </head>
 <body>
 
@@ -23,18 +23,24 @@
         </div>
     </nav>
 
-    <section class="help-section">
-        <div class="help-container">
-            <h1>¿Necesitas Ayuda?</h1>
-            <p>Ingresa tu correo electrónico y nos pondremos en contacto contigo para brindarte asistencia.</p>
-            <form action="#" method="POST">
-                <label for="email">Correo Electrónico (Gmail):</label>
-                <input type="email" id="email" name="email" placeholder="Introduce tu Gmail" pattern="[a-z0-9._%+-]+@gmail.com" required>
+    <section class="satisfaction-section">
+        <div class="satisfaction-container">
+            <h1>Formulario de Satisfacción</h1>
+            <form>
+                <label for="question1">¿Le ha resultado intuitiva la web?</label>
+                <input type="text" id="question1" name="question1" placeholder="Escriba su respuesta">
 
-                <label for="message">¿En qué podemos ayudarte?</label>
-                <textarea id="message" name="message" placeholder="Describe tu problema o consulta" required></textarea>
+                <label for="question2">¿Ha encontrado el vehículo que buscaba?</label>
+                <input type="text" id="question2" name="question2" placeholder="Escriba su respuesta">
 
-                <button type="submit" class="help-btn">Enviar Solicitud</button>
+                <label for="question3">¿Cuán probable es que recomiende nuestros productos?</label>
+                <input type="text" id="question3" name="question3" placeholder="Escriba su respuesta">
+
+                <label for="question4">¿Qué más podemos hacer para ayudarle a tomar una decisión?</label>
+                <input type="text" id="question4" name="question4" placeholder="Escriba su respuesta">
+
+                <div class="thanks-message">GRACIAS !!! 😁😁</div>
+                <button type="submit" class="submit-btn">Enviar</button>
             </form>
         </div>
     </section>
@@ -70,3 +76,4 @@
 
 </body>
 </html>
+
