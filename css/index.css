@@ -34,7 +34,7 @@ nav .register-btn:hover {
 }
 
 .hero {
-    background-image: url('rs7.png'); 
+    background-image: url('../img/rs7.png'); 
     background-size: cover;
     background-position: center;
     height: 80vh;
