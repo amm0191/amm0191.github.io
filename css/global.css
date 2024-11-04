@@ -19,7 +19,7 @@ nav .register-btn {
     background-color: darkgoldenrod;
     font-weight: bold;
     padding: 10px;
-    border-radius: 2px;
+    border: 2px solid transparent;
 }
 
 nav .register-btn:hover {
