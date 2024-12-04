@@ -16,7 +16,8 @@ body {
     min-height: 70vh;
     background-color: #f5f5f5;
     padding-top: 80px; 
-    padding-bottom: 40px; 
+    padding-bottom: 40px;
+    background-image: url('../img/fondo.webp');  
 }
 
 .satisfaction-container {
@@ -64,7 +65,7 @@ input[type="text"] {
 
 .submit-btn {
     padding: 0.5rem;
-    background-color: #3498db;
+    background-color: #212c34;
     color: white;
     border: none;
     border-radius: 5px;
