@@ -7,6 +7,7 @@
 body {
     background-color: #707070; 
     font-family: Arial, sans-serif; 
+    background-image: url('../img/fondo.webp'); 
 }
 
 nav {

@@ -6,18 +6,27 @@
     <title>Detalles del Vehículo - Ferrari 488 Pista</title>
     <link rel="stylesheet" href="../css/mercedes-cla.css">
     <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
 </head>
 <body>
 
-    <nav>
-        <img src="../img/logo.png" alt=""> 
-        <a href="../index.html">Moya'S Rent</a>
-        <a href="comprar.html">Alquilar</a>
-        <a href="formulario.html">Cuéntanos</a>
-        <a href="ayuda.html">Ayuda</a>
-        <a href="login.html" class="register-btn">Iniciar Sesion</a>
-        <a href="registro.html" class="register-btn">Registrarse</a>
-        <a href="carrito.html">Carrito</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4">
+        <a class="navbar-brand d-flex align-items-center" href="../index.html">
+            <img src="../img/logo.png" alt="Logo" class="me-2" style="height: 50px; width: 50px;"> Moya'S Rent
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="comprar.html">Alquilar</a></li>
+                <li class="nav-item"><a class="nav-link" href="formulario.html">Cuéntanos</a></li>
+                <li class="nav-item"><a class="nav-link" href="ayuda.html">Ayuda</a></li>
+                <li class="nav-item"><a class="nav-link btn btn-outline-secondary btn-sm me-2" href="loginboot.html">Iniciar Sesión</a></li>
+                <li class="nav-item"><a class="nav-link btn btn-secondary btn-sm" href="registroboot.html">Registrarse</a></li>
+                <li class="nav-item"><a class="nav-link btn btn-secondary btn-sm" href="carrito.html">Carrito</a></li>
+            </ul>
+        </div>
     </nav>
 
     <main>
@@ -48,26 +57,28 @@
         </section>
     </main>
 
-    <footer>
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3>Moya´S Rents</h3>
-                <ul>
-                    <li><a href="#">Sobre nosotros</a></li>
-                    <li><a href="ayuda.html">Ayuda</a></li>
-                    <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span property="dct:title">Moya's Rent</span> by <span property="cc:attributionName">Alejandro Moya</span> is marked with <a href="https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC0 1.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/zero.svg?ref=chooser-v1" alt=""></a></p>
-                </ul>
-            </div>
-
-            <div class="footer-section">
-                <h3>Nuestras Redes</h3>
-                <ul>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Instagram</a></li>
-                </ul>
+    <footer class="py-4">
+        <div class="container">
+            <div class="row text-center text-md-start">
+                <div class="col-md-6 mb-3">
+                    <h5 class="fw-bold">Moya'S Rents</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none">Sobre nosotros</a></li>
+                        <li><a href="ayuda.html" class="text-decoration-none">Ayuda</a></li>
+                        <p class="mt-3 mb-0">Moya's Rent by Alejandro Moya is marked with <a href="https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer">CC0 1.0</a>.</p>
+                    </ul>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <h5 class="fw-bold">Nuestras Redes</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="https://www.facebook.com/" class="text-decoration-none">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/" class="text-decoration-none">Instagram</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </footer>
 
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

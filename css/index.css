@@ -150,13 +150,12 @@ footer {
 .slider-container {
     position: relative;
     width: 100%;
-    height: calc(100vh - 60px - 80px);
+    height: calc(98vh - 60px - 80px);
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Slider */
 .slider {
     display: flex;
     flex-direction: column;

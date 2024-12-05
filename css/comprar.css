@@ -26,12 +26,12 @@ main {
     padding: 40px;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; /* Asegura que los elementos se envuelvan correctamente en pantallas pequeñas */
+    flex-wrap: wrap;
 }
 
 .car-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     max-width: 1200px;
     margin: 0 auto; 
@@ -110,9 +110,8 @@ footer {
     text-decoration: underline;
 }
 
-/* Media Query para pantallas más pequeñas (dispositivos móviles) */
 @media (max-width: 768px) {
     .car-grid {
-        grid-template-columns: 1fr; /* En pantallas pequeñas, mostrar una sola columna */
+        grid-template-columns: 1fr;
     }
 }

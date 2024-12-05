@@ -1,4 +1,3 @@
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
@@ -6,12 +5,10 @@
     font-family: Arial, sans-serif;
 }
 
-/* Estilos del body */
 body {
     background-color: #707070;
 }
 
-/* Sección de inicio de sesión */
 .login-section {
     display: flex;
     justify-content: center;
@@ -82,7 +79,6 @@ input[type="password"] {
     text-decoration: underline;
 }
 
-/* Footer */
 footer {
     background-color: #222;
     color: white;
