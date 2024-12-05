@@ -42,7 +42,6 @@
                 <li class="nav-item"><a class="nav-link" href="comprar.html">Alquilar</a></li>
                 <li class="nav-item"><a class="nav-link" href="formulario.html">Cuéntanos</a></li>
                 <li class="nav-item"><a class="nav-link" href="ayuda.html">Ayuda</a></li>
-                <li class="nav-item"><a class="nav-link btn btn-outline-secondary btn-sm me-2" href="loginboot.html">Iniciar Sesión</a></li>
                 <li class="nav-item"><a class="nav-link btn btn-secondary btn-sm" href="registroboot.html">Registrarse</a></li>
                 <li class="nav-item"><a class="nav-link" href="carrito.html">Carrito</a></li>
             </ul>
@@ -53,7 +52,7 @@
     <section class="d-flex align-items-center justify-content-center" style="min-height: 80vh;">
         <div class="bg-white p-4 rounded shadow text-center" style="max-width: 400px; width: 100%;">
             <h1 class="mb-4">Inicia Sesión</h1>
-            <form action="#" method="POST" class="text-start">
+            <form id="loginForm" action="#" method="POST" class="text-start">
                 <div class="mb-3">
                     <label for="email" class="form-label">Correo Electrónico:</label>
                     <input type="email" id="email" name="email" class="form-control" placeholder="Introduce tu correo" required>
@@ -62,7 +61,7 @@
                     <label for="password" class="form-label">Contraseña:</label>
                     <input type="password" id="password" name="password" class="form-control" placeholder="Introduce tu contraseña" required>
                 </div>
-                <button type="submit" class="btn btn-dark w-100">Iniciar Sesión</button>
+                <button type="submit" class="btn btn-dark w-100" data-bs-toggle="modal" data-bs-target="#loginModal">Iniciar Sesión</button>
                 <div class="d-flex justify-content-between mt-3">
                     <a href="registro.html" class="text-decoration-none text-primary">¿No tienes cuenta? Regístrate</a>
                 </div>
@@ -70,7 +69,24 @@
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Bienvenido</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Has iniciado sesión correctamente.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <footer class="py-4">
         <div class="container">
             <div class="row text-center text-md-start">
@@ -96,3 +112,4 @@
     <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
