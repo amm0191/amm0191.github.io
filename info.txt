@@ -1,0 +1,1 @@
+El bootstrap funciona con node_modules, pero a la hora de verlo en servidor no va bien y por eso he puesto los cdn.
