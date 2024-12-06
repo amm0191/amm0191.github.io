@@ -1,0 +1,35 @@
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #333;
+    padding: 12px;
+    color: #fff;
+    padding: 10px;
+    font-size: large;    
+}
+
+nav a {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav img {
+    width: 3.5%;
+}
+
+nav .register-btn {
+    background-color: darkgoldenrod;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid transparent;
+}
+
+nav .register-btn:hover {
+    transition: 1s;
+    background-color: transparent;
+    color: darkgoldenrod;
+    border: 2px solid    darkgoldenrod;
+}
