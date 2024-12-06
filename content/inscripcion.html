@@ -3,17 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de Satisfacción - Moya'S Rents</title>
-    <link rel="stylesheet" href="../css/formulario.css">
-    <link rel="stylesheet" href="../css/global.css">
+    <title>Formulario de Participación - Ferrari 488 Pista</title>
+    <link rel="stylesheet" href="../css/inscripcion.css">
 
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4">
         <a class="navbar-brand d-flex align-items-center" href="../index.html">
             <img src="../img/logo.png" alt="Logo" class="me-2" style="height: 50px; width: 50px;"> Moya'S Rent
@@ -24,36 +22,46 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item"><a class="nav-link" href="comprar.html">Alquilar</a></li>
+                <li class="nav-item"><a class="nav-link" href="formulario.html">Cuéntanos</a></li>
                 <li class="nav-item"><a class="nav-link" href="ayuda.html">Ayuda</a></li>
                 <li class="nav-item"><a class="nav-link btn btn-outline-secondary btn-sm me-2" href="loginboot.html">Iniciar Sesión</a></li>
-                <li class="nav-item"><a class="nav-link btn btn-secondary btn-sm me-2" href="registroboot.html">Registrarse</a></li>
-                <li class="nav-item"><a class="nav-link btn btn-secondary btn-sm me-2" href="carrito.html">Carrito</a></li>
+                <li class="nav-item"><a class="nav-link btn btn-secondary btn-sm" href="registroboot.html">Registrarse</a></li>
+                <li class="nav-item"><a class="nav-link btn btn-secondary btn-sm" href="carrito.html">Carrito</a></li>
             </ul>
         </div>
     </nav>
-    
 
-    <section class="satisfaction-section">
-        <div class="satisfaction-container">
-            <h1>Formulario de Satisfacción</h1>
-            <form>
-                <label for="question1">¿Le ha resultado intuitiva la web?</label>
-                <input type="text" id="question1" name="question1" placeholder="Escriba su respuesta">
-
-                <label for="question2">¿Ha encontrado el vehículo que buscaba?</label>
-                <input type="text" id="question2" name="question2" placeholder="Escriba su respuesta">
-
-                <label for="question3">¿Cuán probable es que recomiende nuestros productos?</label>
-                <input type="text" id="question3" name="question3" placeholder="Escriba su respuesta">
-
-                <label for="question4">¿Qué más podemos hacer para ayudarle a tomar una decisión?</label>
-                <input type="text" id="question4" name="question4" placeholder="Escriba su respuesta">
-
-                <div class="thanks-message">GRACIAS !!! 😁😁</div>
-                <button type="submit" class="submit-btn">Enviar</button>
+    <main>
+        <section class="form-section container">
+            <h1 class="text-center my-5">Participa en el Sorteo</h1>
+            <p class="text-center mb-4">Completa el formulario para tener la oportunidad de ganar una vuelta en el Ferrari 488 Pista.</p>
+            <form class="formulario-sorteo">
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre Completo</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre completo" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico" required>
+                </div>
+                <div class="mb-3">
+                    <label for="telefono" class="form-label">Número de Teléfono</label>
+                    <input type="tel" class="form-control" id="telefono" placeholder="Ingresa tu número de teléfono" required>
+                </div>
+                <div class="mb-3">
+                    <label for="edad" class="form-label">Edad</label>
+                    <input type="number" class="form-control" id="edad" placeholder="Ingresa tu edad" required>
+                </div>
+                <div class="form-check mb-3">
+                    <input class="form-check-input" type="checkbox" id="terminos" required>
+                    <label class="form-check-label" for="terminos">
+                        Acepto los <a href="terminos.html" target="_blank">términos y condiciones</a>.
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-warning w-100">Enviar Participación</button>
             </form>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <footer class="py-4">
         <div class="container">
@@ -76,8 +84,5 @@
             </div>
         </div>
     </footer>
-
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-

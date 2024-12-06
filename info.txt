@@ -1,1 +1,2 @@
 El bootstrap funciona con node_modules, pero a la hora de verlo en servidor no va bien y por eso he puesto los cdn.
+La página extra es el sorteo y su formulario de inscripición.
